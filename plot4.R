@@ -27,7 +27,7 @@ png("plot4.png", width=480, height=480)
 
 ## Partition the ploting device for the four plots
 
-par(mfrow = c(2,2), mar = c(2,4,1,1))
+par(mfrow = c(2,2))
 
 ## Plot number 4 of 1
 
