@@ -25,5 +25,5 @@ subsetDatafinal <- tbl_df(subsetData)
 
 png("plot1.png", width=480, height=480)
 hist(subsetDatafinal$Global_active_power,
-     main = "Global Active Power", col = "red", xlab = "Global Active Power") 
+     main = "Global Active Power", col = "red", xlab = "Global Active Power (kilowatts)") 
 dev.off()
